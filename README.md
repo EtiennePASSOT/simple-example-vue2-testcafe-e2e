@@ -2,23 +2,18 @@
 
 ## Project setup
 ```
-yarn install
+yarn
 ```
 
-### Compiles and hot-reloads for development
+## Run tests
+
+First, start by running dev server with :
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+Then, run test with :
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+npx testcafe chrome
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
